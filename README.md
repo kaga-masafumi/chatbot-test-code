@@ -1,4 +1,4 @@
-# GPT Chat App
+#  Chatbot Code Created for Learning Purposes
 
 This project is a simple chat application powered by OpenAI's GPT API. Users can input messages and receive real-time responses from the AI.
 
