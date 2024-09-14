@@ -1,6 +1,6 @@
 # GPT Chat App
 
-This project is a simple chat application powered by OpenAI's GPT-3.5. Users can input messages and receive real-time responses from the AI.
+This project is a simple chat application powered by OpenAI's GPT API. Users can input messages and receive real-time responses from the AI.
 
 ## Structure
 
