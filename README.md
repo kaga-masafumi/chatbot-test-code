@@ -18,8 +18,8 @@ This project is a simple chat application powered by OpenAI's GPT API. Users can
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/kaga-masafumi/practice-chatbot.git
-   cd practice-chatbot
+   git clone https://github.com/kaga-masafumi/chatbot-test-code.git
+   cd chatbot-test-code
    ```
 
 2. **Install the necessary packages for the backend**:
