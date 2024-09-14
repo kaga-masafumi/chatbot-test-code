@@ -1,77 +1,77 @@
 # GPT Chat App
 
-このプロジェクトは、OpenAIのGPTのAPIを使用したシンプルなチャットアプリケーションです。ユーザーはメッセージを入力し、AIからの応答をリアルタイムで受け取ることができます。
+This project is a simple chat application powered by OpenAI's GPT-3.5. Users can input messages and receive real-time responses from the AI.
 
-## 構成
+## Structure
 
-- **フロントエンド**: Vue.jsを使用
-- **バックエンド**: Flaskを使用
+- **Frontend**: Built with Vue.js
+- **Backend**: Built with Flask
 
-## 必要な環境
+## Requirements
 
 - Python 3.x
 - Node.js
 - npm (Node Package Manager)
-- OpenAI APIキー
+- OpenAI API key
 
-## インストール手順
+## Installation Instructions
 
-1. **リポジトリをクローンします**:
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/kaga-masafumi/practice-chatbot.git
    cd practice-chatbot
    ```
 
-2. **バックエンドの必要なパッケージをインストール**:
+2. **Install the necessary packages for the backend**:
    ```bash
    cd backend
    pip install -r requirements.txt
    ```
 
-3. **フロントエンドの必要なパッケージをインストール**:
+3. **Install the necessary packages for the frontend**:
    ```bash
    cd ../frontend
    npm install
    ```
 
-4. **OpenAI APIキーを設定**:
-   `backend/app.py` の中で、次の行を自分のAPIキーで修正します：
+4. **Set your OpenAI API key**:
+   Modify the following line in `backend/app.py` with your actual API key:
    ```python
    openai.api_key = 'your_openai_api_key'
    ```
 
-## アプリケーションの起動
+## Running the Application
 
-### バックエンドの起動
+### Start the Backend
 
-1. バックエンドディレクトリに移動します:
+1. Navigate to the backend directory:
    ```bash
    cd backend
    ```
 
-2. Flaskアプリケーションを起動します:
+2. Start the Flask application:
    ```bash
    python app.py
    ```
 
-### フロントエンドの起動
+### Start the Frontend
 
-1. フロントエンドディレクトリに移動します:
+1. Navigate to the frontend directory:
    ```bash
    cd ../frontend
    ```
 
-2. Vue.jsアプリケーションを起動します:
+2. Start the Vue.js application:
    ```bash
    npm run serve
    ```
 
-3. ブラウザで `http://localhost:8080` を開きます。
+3. Open your browser and go to `http://localhost:8080`.
 
-## 使用方法
+## Usage
 
-チャットボックスにメッセージを入力して "Send" ボタンを押すと、AIからの応答が表示されます。
+Type a message in the chat box and click the "Send" button to receive a response from the AI.
 
-## ライセンス
+## License
 
-このプロジェクトは [MIT License](LICENSE) に基づいています。
+This project is licensed under the [MIT License](LICENSE).
