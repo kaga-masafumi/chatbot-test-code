@@ -1,0 +1,26 @@
+# 環境設定ファイル
+**/.env
+
+# Pythonの仮想環境フォルダ
+**/venv/
+
+# Node.jsのモジュール（node_modules）
+**/node_modules/
+
+# npmのロックファイル
+**/package-lock.json
+
+# npmのパッケージ設定
+**/package.json
+
+# 公開フォルダ
+**/public/
+
+# Babelの設定ファイル
+**/babel.config.js
+
+# JavaScriptの設定ファイル
+**/jsconfig.json
+
+# Vue CLIの設定ファイル
+**/vue.config.js
